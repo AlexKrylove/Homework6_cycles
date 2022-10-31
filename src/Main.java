@@ -28,6 +28,13 @@ public class Main {
         for (int i = 1; i <= 512; i *=2) {
             System.out.println( i );
         }
+        System.out.println("Task8");
+        int accumulation = 29000;
+        int total = 0;
+        for (int i = 0; i <= 12; i++) {
+            total = total + accumulation;
+            System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей.");
+        }
     }
 
 
