@@ -35,6 +35,7 @@ public class Main {
             total = total + accumulation;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + total + " рублей.");
         }
+
     }
 
 
