@@ -6,7 +6,7 @@ public class Main {
         }
         System.out.println("Task2");
         for (int a = 10; a >= 0; a--) {
-            System.out.println("Iteration: " + a);
+            System.out.println("Iteration " + a);
         }
     }
 }
