@@ -26,8 +26,9 @@ public class Main {
         }
         System.out.println("Task7");
         for (int i = 1; i <= 512; i *= 2) {
-            System.out.println(i);
+            System.out.print(i + " ");
         }
+        System.out.println(" ");
         System.out.println("Task8");
         int accumulation = 29000;
         int total = 0;
@@ -38,8 +39,8 @@ public class Main {
         System.out.println("Task9");
         int saving = 29000;
         int sum = 0;
-        for (int i = 0; i <= 12; i++) {
-            sum = sum + sum/100;
+        for (int i = 1; i <= 12; i++) {
+            sum = sum + saving/100;
             sum = sum + saving;
             System.out.println("Месяц " + i + ", сумма накоплений равна " + sum + " рублей.");
         }
