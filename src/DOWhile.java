@@ -19,6 +19,7 @@ public class DOWhile {
         for (int b = 10; b>=1; b--){
             System.out.print(b + " ");
         }
+        System.out.println(" ");
         System.out.println("Task_While_3");
         int population  = 12_000_000;
         int newBorn = population/1000 * 17;
@@ -26,6 +27,15 @@ public class DOWhile {
         for (int year = 1; year<=10;year++) {
             population = population + newBorn - deadPeople;
             System.out.println("Год " + year + " чиленность населения составит " + population);
+        }
+        System.out.println("Task_While_4");
+        int money = 15000;
+        double total = 0;
+        int m = 0;
+        while (total < 12_000_000) {
+            total = money*=1.07;
+            m++;
+            System.out.println("Месяц " + m + " сумма накоплений равна "+ total);
         }
     }
 }
