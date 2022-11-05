@@ -68,6 +68,15 @@ public class DOWhile {
                 System.out.println(yearComet);
             }
         }
+        System.out.println("Task9");
+        int firstNumber = 2;
+        int secondNumber = 0;
+        int result = 0;
+        for (int c = 1; c <= 10; c++) {
+            result= firstNumber*c;
+            secondNumber+=1;
+            System.out.println(firstNumber+" * " + secondNumber +" = "+ result);
+        }
     }
 }
 
