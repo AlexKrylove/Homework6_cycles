@@ -54,7 +54,7 @@ public class DOWhile {
             } else if (days == friday + 7+7+7) {
                 System.out.println("Сегодня пятница " + days + " число, пора подготовить отчет");
             } else if (days == friday + 7+7+7+7) {
-                System.out.println("Сегодня пятница " + days + " число, пора подготовить отчет");
+                System.out.println("Сегодня пятница " + days + " число, пора подготовить отчет ");
             }
         }
     }
