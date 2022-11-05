@@ -9,6 +9,16 @@ public class DOWhile {
             i++;
           System.out.println("Месяц " + i + " сумма накоплений равна "+ sum);
         }
+        System.out.println("Task_While_2");
+        int a = 0;
+        while (a<10) {
+            a++;
+            System.out.print(a + " ");
+        }
+        System.out.println(" ");
+        for (int b = 10; b>=1; b--){
+            System.out.print(b + " ");
+        }
     }
 }
 
