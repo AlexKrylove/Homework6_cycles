@@ -28,14 +28,17 @@ public class DOWhile {
             population = population + newBorn - deadPeople;
             System.out.println("Год " + year + " чиленность населения составит " + population);
         }
-        System.out.println("Task_While_4");
+        System.out.println("Task_While_4_5");//System.out.println("Task_While_5");
         int money = 15000;
         double total = 0;
         int m = 0;
         while (total < 12_000_000) {
             total = money*=1.07;
             m++;
-            System.out.println("Месяц " + m + " сумма накоплений равна "+ total);
+            if (m % 6 == 0) {
+                System.out.println("Месяц " + m + " сумма накоплений равна "+ total);
+            }
+           // System.out.println("Месяц " + m + " сумма накоплений равна "+ total);
         }
     }
 }
