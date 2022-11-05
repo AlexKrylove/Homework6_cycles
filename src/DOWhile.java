@@ -19,6 +19,14 @@ public class DOWhile {
         for (int b = 10; b>=1; b--){
             System.out.print(b + " ");
         }
+        System.out.println("Task_While_3");
+        int population  = 12_000_000;
+        int newBorn = population/1000 * 17;
+        int deadPeople = population/1000 * 8;
+        for (int year = 1; year<=10;year++) {
+            population = population + newBorn - deadPeople;
+            System.out.println("Год " + year + " чиленность населения составит " + population);
+        }
     }
 }
 
