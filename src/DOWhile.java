@@ -23,8 +23,10 @@ public class DOWhile {
         int population  = 12_000_000;
         int newBorn = population/1000 * 17;
         int deadPeople = population/1000 * 8;
-        for (int year = 1; year<=10;year++) {
-            population = population + newBorn - deadPeople;
+        int year=0;
+        while (year<=9){
+            year++;
+            population = population + (newBorn - deadPeople);
             System.out.println("Год " + year + " чиленность населения составит " + population);
         }
     }
