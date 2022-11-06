@@ -41,20 +41,12 @@ public class DOWhile {
            // System.out.println("Месяц " + m + " сумма накоплений равна "+ total);
         }
         System.out.println("Task_While_7");
-        int friday = 7;
+        int friday = 1;
         int days = 0;
         while (days<31) {
             days++;
-            if (days == friday) {
+            if (days%7 == friday) {
                 System.out.println("Сегодня пятница " + days + " число, пора подготовить отчет");
-            } else if (days == friday + 7) {
-                System.out.println("Сегодня пятница " + days + " число, пора подготовить отчет");
-            } else if (days == friday + 7+7) {
-                System.out.println("Сегодня пятница " + days + " число, пора подготовить отчет");
-            } else if (days == friday + 7+7+7) {
-                System.out.println("Сегодня пятница " + days + " число, пора подготовить отчет");
-            } else if (days == friday + 7+7+7+7) {
-                System.out.println("Сегодня пятница " + days + " число, пора подготовить отчет ");
             }
         }
     }
